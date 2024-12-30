@@ -1,7 +1,7 @@
 import Link from "next/link";
 import locations from "@/data/locations.json";
 
-export default function Login() {
+export default function Arsip() {
   return (
     <>
       <h1 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
@@ -18,6 +18,6 @@ export default function Login() {
           ))}
         </ul>
       </div>
-
+    </>
   );
 }
