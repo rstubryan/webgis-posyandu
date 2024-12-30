@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 import locations from "@/data/locations.json";
+
+window.L = L;
 
 const DefaultIcon = L.icon({
   iconUrl: icon as unknown as string,
@@ -16,16 +17,6 @@ const DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 export default function LeafletMap() {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return null;
-  }
-
   return (
     <MapContainer
       center={[-6.9012804, 106.860324]}
