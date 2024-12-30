@@ -1,4 +1,3 @@
-import LeafletMap from "@/components/molecules/LeafletMap";
 import {
   Table,
   TableHeader,
@@ -8,6 +7,7 @@ import {
   TableCell,
 } from "@/components/ui/table";
 import locations from "@/data/locations.json";
+import LeafletData from "@/components/templates/LeafletData";
 
 export default function Webgis() {
   return (
@@ -21,8 +21,8 @@ export default function Webgis() {
         untuk memudahkan masyarakat dalam mencari informasi mengenai posyandu di
         Desa Cisande.
       </p>
-      <LeafletMap />
-      <div className="mt-8">
+      <LeafletData />
+      <div className="mt-4">
         <Table>
           <TableHeader>
             <TableRow>
