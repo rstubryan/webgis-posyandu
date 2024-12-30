@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Posyandu Mawar",
+    "address": "Kampung Talaga Hilir, RW 1",
+    "lat": -6.8954728,
+    "lng": 106.8435044
+  },
+  {
+    "name": "Posyandu Aster",
+    "address": "Kampung Cikukulu Tonggoh, RW 2",
+    "lat": -6.9012804,
+    "lng": 106.85
+  },
+  {
+    "name": "Posyandu Anggrek Merah",
+    "address": "Kampung Pingku, RW 3",
+    "lat": -6.9012804,
+    "lng": 106.84
+  },
+  {
+    "name": "Posyandu Anggrek",
+    "address": "Kampung Cikukulu, RW 4",
+    "lat": -6.91,
+    "lng": 106.85321
+  },
+  {
+    "name": "Posyandu Kenanga",
+    "address": "Kampung Cikukulu, RW 5",
+    "lat": -6.91,
+    "lng": 106.860324
+  },
+  {
+    "name": "Posyandu Seruni",
+    "address": "Kampung Cikukulu, RW 5",
+    "lat": -6.91,
+    "lng": 106.860324
+  },
+  {
+    "name": "Posyandu Asyfa",
+    "address": "Kampung Pondok Leungsir, RW 6",
+    "lat": -6.91,
+    "lng": 106.860324
+  },
+  {
+    "name": "Posyandu Flamboyan",
+    "address": "Kampung Cikuku, RW 8",
+    "lat": -6.91,
+    "lng": 106.860324
+  },
+  {
+    "name": "Posyandu Jasmine",
+    "address": "Kampung Cikukulu, RW 8",
+    "lat": -6.91,
+    "lng": 106.860324
+  }
+]
