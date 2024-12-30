@@ -3,7 +3,7 @@ import ContainerLayout from "@/components/templates/ContainerLayout";
 
 export default function Home() {
   return (
-    <ContainerLayout className="min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <ContainerLayout className="font-[family-name:var(--font-geist-sans)]">
       <h1 className="text-3xl font-semibold mb-8">
         Selamat datang di Posyandu Desa Cisande
       </h1>

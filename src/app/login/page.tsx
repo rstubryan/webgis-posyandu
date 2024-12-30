@@ -25,8 +25,8 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <form onSubmit={handleLogin} className="w-full">
-        <h1 className="text-2xl font-semibold">Login</h1>
+      <form onSubmit={handleLogin} className="w-full max-w-md p-8 space-y-4">
+        <h1 className="text-2xl font-semibold text-center">Login</h1>
         {error && <p className="text-red-500">{error}</p>}
         <div>
           <label htmlFor="email" className="block text-sm font-medium">
@@ -54,7 +54,9 @@ export default function LoginPage() {
             required
           />
         </div>
-        <Button type="submit">Login</Button>
+        <Button className={`w-full`} type="submit">
+          Login
+        </Button>
       </form>
     </div>
   );
